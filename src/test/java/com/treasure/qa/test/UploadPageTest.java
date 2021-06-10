@@ -28,7 +28,7 @@ public class UploadPageTest extends TestBase {
 		homePage = loginPage.login(prop.getProperty("username"), prop.getProperty("password"));	
 	}
 	
-	@Test
+	@Test(priority=1)
 	public void uploadFile(){
 		uploadPage = homePage.uploadFile(absolutePath + uploadFilePath);
 		String uploadMsg = uploadPage.fileTotalCount.getText();
