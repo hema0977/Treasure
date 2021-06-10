@@ -3,13 +3,13 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test name="Default test(failed)">
     <classes>
-      <class name="com.treasure.qa.test.LoginPageTest">
+      <class name="com.treasure.qa.test.UploadPageTest">
         <methods>
-          <include name="setUp"/>
           <include name="tearDown"/>
-          <include name="loginWithValidId"/>
+          <include name="deleteFile"/>
+          <include name="setUp"/>
         </methods>
-      </class> <!-- com.treasure.qa.test.LoginPageTest -->
+      </class> <!-- com.treasure.qa.test.UploadPageTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

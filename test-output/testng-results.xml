@@ -1,25 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" total="2" passed="2">
+<testng-results skipped="0" failed="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="7966" started-at="2021-06-09T10:02:11Z" finished-at="2021-06-09T10:02:19Z">
+  <suite name="Default suite" duration-ms="97731708" started-at="2021-06-09T06:32:04Z" finished-at="2021-06-10T09:40:56Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="7966" started-at="2021-06-09T10:02:11Z" finished-at="2021-06-09T10:02:19Z">
+    <test name="Default test" duration-ms="97731708" started-at="2021-06-09T06:32:04Z" finished-at="2021-06-10T09:40:56Z">
       <class name="com.treasure.qa.test.UploadPageTest">
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.treasure.qa.test.UploadPageTest@224edc67]" name="setUp" is-config="true" duration-ms="3732" started-at="2021-06-09T18:02:11Z" finished-at="2021-06-09T18:02:15Z">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.treasure.qa.test.UploadPageTest@224edc67]" name="setUp" is-config="true" duration-ms="4330" started-at="2021-06-09T14:32:04Z" finished-at="2021-06-09T14:32:08Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="uploadFile()[pri:0, instance:com.treasure.qa.test.UploadPageTest@224edc67]" name="uploadFile" duration-ms="2371" started-at="2021-06-09T18:02:15Z" finished-at="2021-06-09T18:02:18Z">
+        <test-method status="PASS" signature="uploadFile()[pri:0, instance:com.treasure.qa.test.UploadPageTest@224edc67]" name="uploadFile" duration-ms="97727225" started-at="2021-06-09T14:32:08Z" finished-at="2021-06-10T17:40:56Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- uploadFile -->
-        <test-method status="PASS" signature="deleteFile()[pri:2, instance:com.treasure.qa.test.UploadPageTest@224edc67]" name="deleteFile" duration-ms="1756" started-at="2021-06-09T18:02:18Z" finished-at="2021-06-09T18:02:19Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- deleteFile -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.treasure.qa.test.UploadPageTest@224edc67]" name="tearDown" is-config="true" duration-ms="92" started-at="2021-06-09T18:02:19Z" finished-at="2021-06-09T18:02:19Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.treasure.qa.test.UploadPageTest@224edc67]" name="tearDown" is-config="true" duration-ms="3" started-at="2021-06-10T17:40:56Z" finished-at="2021-06-10T17:40:56Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->

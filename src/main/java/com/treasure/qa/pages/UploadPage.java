@@ -14,11 +14,12 @@ public class UploadPage extends TestBase {
 	@FindBy(id="cdk-drop-list-0")
 	public WebElement dropList;
 	
-	@FindBy(xpath="//*[text()='Delete']")
-	public WebElement btnDelete;
+	@FindBy(xpath="//*[text()='Download']")
+	public WebElement btnDownload;
 	
-	@FindBy(xpath="//*[text()=' Delete file ']")
-	public WebElement btnDeleteFile;
+	@FindBy(xpath="//*[text()='All downloads finished']")
+	public WebElement downloadFinishWindow;
+	
 	
 	//Page Factory
 	public UploadPage(){

@@ -35,16 +35,13 @@ public class UploadPageTest extends TestBase {
 		Assert.assertTrue(uploadMsg.equals("Showing  1  /  1  item"));
 	}
 	
-	
 	@Test(priority=2)
-	public void deleteFile(){
+	public void downloadFile(){
 		driver.navigate().refresh();
 		uploadPage.dropList.click();
-		uploadPage.btnDelete.click();
-		uploadPage.btnDeleteFile.click();
-		Assert.assertTrue(homePage.welcomeMsg.isDisplayed());
+		uploadPage.btnDownload.click();
+		Assert.assertTrue(uploadPage.downloadFinishWindow.isDisplayed());
 	}
-	
 	
 	@AfterTest
 	public void tearDown(){
